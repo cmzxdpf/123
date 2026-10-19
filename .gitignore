@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Output and runtime data
+output/
+debug/
+*.mp4
+*.avi
+*.mov
+*.part
+*.manifest.json
+*.jsonl
+*.npy
+*.npz
+
+# Model weights and caches (NO MODELS IN REPO)
+*.pth
+*.pt
+*.onnx
+*.bin
+*.safetensors
+*.weights
+*.tflite
+*.pb
+*.dfm
+*.ckpt
+*.engine
+hf_cache/
+torch_cache/
+uv_cache/
+pip_cache/
+model_assets/
+models/
+weights/*.pth
+weights/*.onnx
+_preview_temp/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
